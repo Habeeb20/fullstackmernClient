@@ -30,6 +30,7 @@ const SignUp = () => {
                     setError(true)
                     return
                 }
+                navigate("/login")
                 
               
              
