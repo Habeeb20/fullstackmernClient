@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from '../components/Header'
+import HomeBanner from '../components/HomeBanner'
 
 const Home = () => {
   return (
     <div>
         
-        <h1>hi</h1>
+       <HomeBanner />
       
     </div>
   )

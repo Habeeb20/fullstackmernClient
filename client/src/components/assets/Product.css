@@ -1,0 +1,107 @@
+
+.kick-start{
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .kick{
+    margin-left: 38px;
+    margin-bottom: 30px;
+  }
+  
+  .kick-text h1{ 
+    color: #fff;
+    font-size: 26px ;
+    font-weight: 600;
+  } 
+  
+  .career-page{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-gap: 20px 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .career-image img{
+    width: 100%;
+    box-shadow: 6px 0px 30px rgba(236, 228, 228, 0.5);
+    transition: .4s ease;
+  }
+  
+  .career-image:hover img{
+    transform: scale(1.1);
+  }
+  
+  .career-details h2{
+    color: #fff;
+    font-size: 16px;
+    font-family: tahoma;
+    font-weight: 600;
+    margin: 10px 0 4px;
+  }
+  
+  .text-color{
+    color: #C4C4C4;
+    font-size: 12px;
+    font-family: tahoma;
+  }
+
+  .rate-num{
+    display: flex;
+    align-items: center;
+    margin: 4px 0;
+  }
+  
+  .rate-text{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-right: 5px;
+  }
+
+  .price {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .dis-price{
+    color: #C4C4C4;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 4px;
+  }
+  
+  button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 25px;
+    font-size: 20px;
+  }
+  .on{
+    color: #EBA95B;
+  }
+  .off{
+    color: #ccc;
+  }
+  
+  .rating{
+    font-size: 12px;
+    color: #C4C4C4;
+    margin-top: 5px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .career-page{
+      grid-template-columns: 33% 33% 33%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .career-page{
+      grid-template-columns: 50% 50%;
+    }
+  }
