@@ -5,6 +5,7 @@ dotenv.config()
 import user from './routes/user.route.js'
 import auth from './routes/auth.route.js'
 import cors from 'cors'
+import cookieParser from 'cookie-parser'
 import { resolveSoa } from 'dns'
 
 const port = process.env.PORT || 3000
@@ -22,6 +23,7 @@ mongoose
 const app = express()
 app.use(express.json())
 app.use(cors())
+app.use(cookieParser())
 app.use('/app', user )
 app.use('/app/auth', auth)
 
